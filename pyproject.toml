@@ -8,7 +8,8 @@ version = "0.1.0"
 description = "WebGPU-accelerated CatBoost for Python, written in Rust with automatic CPU fallback"
 readme = "README.md"
 requires-python = ">=3.9"
-license = { text = "Apache-2.0" }
+license = { text = "MIT" }
+urls = { repository = "https://github.com/Kamonashis/catboost-webgpu" }
 dependencies = [
     "numpy>=1.20",
     "scipy>=1.7",

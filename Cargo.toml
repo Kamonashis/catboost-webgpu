@@ -2,9 +2,11 @@
 name = "catboost-webgpu"
 version = "0.1.0"
 edition = "2021"
-authors = ["catboost-webgpu contributors"]
+authors = ["Kamonashis and contributors"]
 description = "High-performance CatBoost implementation in Rust with WebGPU acceleration and automatic CPU fallback"
-license = "Apache-2.0"
+license = "MIT"
+repository = "https://github.com/Kamonashis/catboost-webgpu"
+readme = "README.md"
 
 [lib]
 name = "catboost_webgpu_core"
